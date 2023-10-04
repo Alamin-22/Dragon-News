@@ -10,7 +10,7 @@ const LeftSideNav = () => {
     }, [])
     return (
         <div>
-            <h1 className="text-3xl">All Category</h1>
+            <h1 className="text-3xl text-center">All Category</h1>
             {
                 categories.map(category => <NavLink
                     className={"block px-10 py-4 font-semibold btn btn-ghost"}
