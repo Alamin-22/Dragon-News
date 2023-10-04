@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'; // ES6
 import { Link } from 'react-router-dom';
 const NewsCard = ({ ANews }) => {
-    console.log(ANews)
+    // console.log(ANews)
     const { _id, title,  image_url, details } = ANews;
     return (
         <div className="relative flex mb-5 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">

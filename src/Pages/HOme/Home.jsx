@@ -8,7 +8,7 @@ import NewsCard from "./NewsCard";
 
 const Home = () => {
     const News = useLoaderData();
-    console.log(News.length)
+    // console.log(News.length)
     return (
         <div>
             <Header></Header>
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
                 <div className="md:col-span-2 ">
                     {
-                        News.map(ANews => <NewsCard key={ANews.id} ANews={ANews}></NewsCard>)
+                        News.map(ANews => <NewsCard key={ANews._id} ANews={ANews}></NewsCard>)
                     }
                 </div>
                 <div >
