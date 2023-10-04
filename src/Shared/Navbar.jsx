@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/Provider";
-
+import userPic from "../assets/user.png"
 const Navbar = () => {
 
     const NavLinks = <>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
-                        <img src={"/src/assets/user.png"} />
+                        <img src={userPic} />
                     </div>
                 </label>
                 {

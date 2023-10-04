@@ -1,5 +1,8 @@
 import { FcGoogle } from 'react-icons/fc';
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
+import qZoon1 from "../../assets/qZone1.png";
+import qZoon2 from "../../assets/qZone2.png";
+import qZoon3 from "../../assets/qZone3.png";
 
 const RightSideNav = () => {
     return (
@@ -33,9 +36,9 @@ const RightSideNav = () => {
             {/* baccha zoon */}
             <div className="border rounded-lg p-4 space-y-3 mb-6">
                 <h1 className="text-3xl">Q Zoon</h1>
-                <img src={"/src/assets/qZone1.png"} alt="picchi1" />
-                <img src={"/src/assets/qZone2.png"} alt="picchi2" />
-                <img src={"/src/assets/qZone3.png"} alt="picchi3" />
+                <img src={qZoon1} alt="picchi1" />
+                <img src={qZoon2} alt="picchi2" />
+                <img src={qZoon3} alt="picchi3" />
             </div>
         </div>
     );
